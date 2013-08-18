@@ -26,14 +26,6 @@ public class ElasticSearchImmutableSearchFactory
     Validate.notNull(elasticsearchClient,
         "The elastic search client cannot be null");
     client = elasticsearchClient;
-
-    // getDocumentBuilderIndexedEntity(Object.class).createAddWork(Object.class,
-    // null, 1, "", HibernateStatelessInitializer.INSTANCE, false);
-    //
-    //
-    // getDocumentBuilderIndexedEntity(Object.class).addWorkToQueue(entityClass,
-    // entity, id, delete, add, batch, queue)
-
   }
 
   /** {@inheritDoc}.*/
