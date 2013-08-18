@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.hibernate.search</groupId>
   <artifactId>elasticsearch-connector</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
   <name>Hibernate search - elasticsearch connector</name>
 
@@ -120,7 +120,7 @@
     <url>https://github.com/55social/hibernate-search-elasticsearch-connector</url>
     <connection>scm:git:git@github.com:55social/hibernate-search-elasticsearch-connector.git</connection>
     <developerConnection>scm:git:git@github.com:55social/hibernate-search-elasticsearch-connector.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>v1.0</tag>
   </scm>
 
 <distributionManagement>
