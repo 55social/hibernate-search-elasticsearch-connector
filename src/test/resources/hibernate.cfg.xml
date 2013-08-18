@@ -14,9 +14,6 @@
     <property name="hibernate.search.worker.backend">
      org.hibernate.search.elasticsearch.ElasticSearchBackendQueueProcessorFactory
     </property>
-    <property name="hibernate.search.worker.backend">
-      org.hibernate.search.elasticsearch.ElasticSearchBackendQueueProcessorFactory
-    </property>
     <property name="hibernate.search.default.directory_provider">ram</property>
     <mapping class="org.hibernate.search.elasticsearch.MockEntity"/>
   </session-factory>
